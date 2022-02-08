@@ -1,11 +1,13 @@
 import React from "react";
+import add, { devide, multiply, substract } from "../jsES6/calculator.js";
 
 let List = () => {
   return (
     <ul>
-      <li>I love me some beautiful woman</li>
-      <li>Don't stress me or I'll run</li>
-      <li>Well, hello from over here. </li>
+      <li>{add(23, 53)}</li>
+      <li>{devide(5363, 32445322)}</li>
+      <li>{substract(34334, 563)}</li>
+      <li>{multiply(44534534, 6343)}</li>
     </ul>
   );
 };

@@ -1,11 +1,11 @@
 import React from "react";
 import Heading from "./Heading";
 import List from "./List";
+import add, { devide, multiply, substract } from "./jsES6/calculator.js";
 var myName = "Paul";
 var lastName = "Anigbo";
 var luckyNumber = 7;
 var date = new Date();
-import add, { devide, multiply, substract } from "./jsES6/calculator.js";
 
 const customStyles = {
   border: "1px solid red",

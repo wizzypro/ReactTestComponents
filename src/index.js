@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Heading from "./Heading";
+import List from "./List";
 var myName = "Paul";
 var lastName = "Anigbo";
 var luckyNumber = 7;
@@ -34,6 +35,7 @@ if (currentDate.getHours() < 12) {
 ReactDOM.render(
   <div>
     <Heading>{greetings}</Heading>
+    <List></List>
     <h1 style={customStyles} id="gretingText">
       {greetings}
     </h1>
